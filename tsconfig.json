@@ -1,0 +1,17 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts"
+, "app/(tabs)/scaner.jsx", "app/(tabs)/index.jsx", "app/(tabs)/_layout.jsx", "app/_layout.jsx", "clerk-react/src/App.tsx"  ]
+}
