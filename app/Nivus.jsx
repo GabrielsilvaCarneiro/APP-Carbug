@@ -185,7 +185,6 @@ const App = () => {
         ListFooterComponent={() => (
           <View style={styles.footer}>
             <TouchableOpacity style={styles.moreCommentsButton}>
-              <Text style={{ color: '#fff' }} >Ver mais comentários</Text>
             </TouchableOpacity>
           </View>
         )}
@@ -235,7 +234,7 @@ const styles = StyleSheet.create({
   },
   carImage: {
     width: '50%', // Ajuste o tamanho conforme necessário
-    height: '80%',
+    height: '70%',
     resizeMode: 'stretch',
     top: '15%',
   },

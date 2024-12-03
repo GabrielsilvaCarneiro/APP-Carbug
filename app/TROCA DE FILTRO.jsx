@@ -79,7 +79,7 @@ const App = () => {
           <View style={styles.helpSection}>
             <View style={{ flexDirection: 'row', alignItems: 'center' }}>
               <Text style={styles.helpTitle}>Problema para identificar ou trocar o filtro de ar do carro?</Text>
-              <Icon name="car" size={20} color="#000" style={styles.icontext} />
+             
             </View>
             <Text style={styles.helpText}>
               Abra o capô do carro: Certifique-se de que o motor está desligado e frio.
@@ -105,7 +105,7 @@ const App = () => {
         <View style={styles.videoSection}>
           <View style={{ flexDirection: 'row', alignItems: 'center' }}>
             <Text style={styles.acessVideo}>Vídeo de ajuda:</Text>
-            <Icon name="video-camera" size={20} color="#000" style={styles.iconCam} />
+          
           </View>
           <TouchableOpacity onPress={() => Linking.openURL('https://www.youtube.com/watch?v=r8XlfosgnY4')} style={styles.videoPlaceholder}>
             {isVideoPlaying[videoHelp.id] ? (
@@ -184,7 +184,7 @@ const App = () => {
         ListFooterComponent={() => (
           <View style={styles.footer}>
             <TouchableOpacity style={styles.moreCommentsButton}>
-              <Text style={{ color: '#fff' }} >Ver mais comentários</Text>
+    
             </TouchableOpacity>
           </View>
         )}

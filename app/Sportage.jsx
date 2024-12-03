@@ -194,7 +194,6 @@ const App = () => {
         ListFooterComponent={() => (
           <View style={styles.footer}>
             <TouchableOpacity style={styles.moreCommentsButton}>
-              <Text style={{ color: '#fff' }} >Ver mais comentários</Text>
             </TouchableOpacity>
           </View>
         )}

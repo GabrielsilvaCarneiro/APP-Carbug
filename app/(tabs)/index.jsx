@@ -165,12 +165,14 @@ export default function HomeScreen() {
               </Picker>
 
               <Text style={styles.popupTitle}>Qual o seu problema?</Text>
-              <TextInput
-                style={styles.popupInput}
-                placeholder="Informe o que está acontecendo!"
-                value={problemDescription}
-                onChangeText={setProblemDescription}
-              />
+
+              {/* Picker de seleção */}
+              <Picker
+                style={styles.picker}
+              >
+                <Picker.Item label="Selecione o tipo de problema" value="" />
+                <Picker.Item label="Problemas Crônicos" />
+              </Picker>
 
               <TouchableOpacity
                 style={styles.searchButton}

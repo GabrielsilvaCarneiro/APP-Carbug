@@ -14,19 +14,6 @@ export default function TabLayout() {
         headerShown: false,
       }}>
 
-      {/* Scanner screen com a TabBar oculta */}
-      <Tabs.Screen
-        name="scanner"
-        options={{
-          title: '',
-          tabBarIcon: ({ color, focused }) => (
-            <TabBarIcon name={focused ? 'car' : 'car-outline'} color={color} />
-          ),
-          // Ocultar a TabBar nesta tela
-          tabBarStyle: { display: 'none' },
-        }}
-      />
-
       {/* Outras telas com a TabBar exibida */}
       <Tabs.Screen
         name="index"

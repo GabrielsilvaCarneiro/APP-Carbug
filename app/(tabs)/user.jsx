@@ -65,13 +65,13 @@ const MenuScreen = () => {
           </View>
         </TouchableOpacity>
 
-        <TouchableOpacity style={styles.menuItem} onPress={ScanScreen} >
+        {/* <TouchableOpacity style={styles.menuItem} onPress={ScanScreen} >
           <Icon name="qr-code-scanner" size={width * 0.07} color="#000" />
           <View style={styles.menuText}>
             <Text style={styles.menuTitle}>Scaner</Text>
             <Text style={styles.menuSubtitle}>Aqui você pode acessar o scaner</Text>
           </View>
-        </TouchableOpacity>
+        </TouchableOpacity> */}
 
         <TouchableOpacity style={styles.menuItem}>
           <Icon name="payment" size={width * 0.07} color="#000" />

@@ -79,7 +79,7 @@ const App = () => {
           <View style={styles.helpSection}>
             <View style={{ flexDirection: 'row', alignItems: 'center' }}>
               <Text style={styles.helpTitle}>Problema para identificar ou trocar as velas do carro?</Text>
-              <Icon name="car" size={20} color="#000" style={styles.icontext} />
+              
             </View>
             <Text style={styles.helpText}>
               Localize as velas: Abra o capô e identifique os cabos de vela que levam às velas de ignição, geralmente conectados na parte superior do motor.
@@ -108,7 +108,7 @@ const App = () => {
         <View style={styles.videoSection}>
           <View style={{ flexDirection: 'row', alignItems: 'center' }}>
             <Text style={styles.acessVideo}>Vídeo de ajuda:</Text>
-            <Icon name="video-camera" size={20} color="#000" style={styles.iconCam} />
+         
           </View>
           <TouchableOpacity onPress={() => Linking.openURL('https://www.youtube.com/watch?v=uKGM4wcMat8')} style={styles.videoPlaceholder}>
             {isVideoPlaying[videoHelp.id] ? (
@@ -187,7 +187,7 @@ const App = () => {
         ListFooterComponent={() => (
           <View style={styles.footer}>
             <TouchableOpacity style={styles.moreCommentsButton}>
-              <Text style={{ color: '#fff' }} >Ver mais comentários</Text>
+        
             </TouchableOpacity>
           </View>
         )}
@@ -237,7 +237,7 @@ const styles = StyleSheet.create({
   },
   carImage: {
     width: '100%', // Ajuste o tamanho conforme necessário
-    height: '120%',
+    height: '80%',
     resizeMode: "contain",
     top: '15%',
   },
